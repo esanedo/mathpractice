@@ -21,10 +21,17 @@
 //}
 
 // tailwind.config.js
-export default {
+//export default {
+//  content: ['./frontend/index.html', './frontend/src/**/*.{js,jsx,ts,tsx}'],
+//  theme: {
+//    extend: {},
+//  },
+//  plugins: [],
+//}
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
   content: ['./frontend/index.html', './frontend/src/**/*.{js,jsx,ts,tsx}'],
-  theme: {
-    extend: {},
-  },
+  theme: { extend: {} },
   plugins: [],
 }
